@@ -23,6 +23,7 @@ jobs:
           pip install selenium
           pip install pytest
           pip install junit-xml
+          pip install webdriver-manager    
 
       - name: Install Chrome
         uses: browser-actions/setup-chrome@v1
